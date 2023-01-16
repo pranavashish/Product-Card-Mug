@@ -18,28 +18,19 @@
 img {
   max-width: 100%;
 }
-
 .container {
   min-height: 100vh;
   background-color: var(--cream);
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .card-box {
   margin: 1em 2em;
   max-width: 400px;
   background-color: white;
   border-radius: 1.5em;
-}
-
-.desktop_img {
-  display: none;
-}
-
-.mobile_img {
-  border-radius: 1em 1em 0 0;
 }
 
 .card_text {
@@ -85,13 +76,13 @@ img {
 
 .btn {
   display: block;
-  margin: 2em 0 1em 0;
+  margin: 2em 0 1.5em 0;
   background-color: var(--darkGreen);
   width: 100%;
   padding: 1em 0;
   color: var(--white);
   border: 0;
-  border-radius: 0.7em;
+  border-radius: 1em;
   outline: none;
   cursor: pointer;
 }
@@ -118,10 +109,6 @@ img {
   width: 900px;
   height: 100%;
   border-radius: 1.5em 0 0 1.5em;
-}
-
-.mobile_img {
-  display: none;
 }
 
 .product_title {
